@@ -15,7 +15,7 @@ public class telaMotorista extends AppCompatActivity {
         setContentView(R.layout.activity_tela_motorista);
 
 
-         Button btnSairMotorista = (Button) findViewById(R.id.btnSairMot);
+        Button btnSairMotorista = (Button) findViewById(R.id.btnSairMot);
         btnSairMotorista.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -27,6 +27,14 @@ public class telaMotorista extends AppCompatActivity {
     }
     public void irTelaAmigos(View view){
         Intent intent = new Intent(this, telaAmigos.class);
+        startActivity(intent);
+    }
+    public void irTelaAddCarona(View view){
+        Intent intent = new Intent(this, adcionarRota.class);
+        startActivity(intent);
+    }
+    public void irTelaAddExtrato(View view){
+        Intent intent = new Intent(this, Extrato.class);
         startActivity(intent);
     }
 }

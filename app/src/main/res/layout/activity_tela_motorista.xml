@@ -31,7 +31,8 @@
                 android:id="@+id/btnMotCar"
                 android:layout_width="120dp"
                 android:layout_height="120dp"
-                android:background="@drawable/postarcarona" />
+                android:background="@drawable/postarcarona"
+                android:onClick="irTelaAddCarona" />
 
             <Space
                 android:layout_width="wrap_content"
@@ -58,7 +59,8 @@
                 android:id="@+id/btnMotExt"
                 android:layout_width="120dp"
                 android:layout_height="120dp"
-                android:background="@drawable/extrato" />
+                android:background="@drawable/extrato"
+                android:onClick="irTelaAddExtrato" />
 
             <Space
                 android:layout_width="match_parent"

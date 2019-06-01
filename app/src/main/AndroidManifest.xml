@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".alert"></activity>
+        <activity android:name=".Extrato"></activity>
+        <activity android:name=".adcionarRota" />
+        <activity android:name=".alert" />
         <activity android:name=".telaAvaliacao" />
         <activity android:name=".telaAmigos" />
         <activity android:name=".telaEsqueciSenha" />
