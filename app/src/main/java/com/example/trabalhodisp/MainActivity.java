@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+import dominio.dao.UsuarioDao;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -35,4 +36,13 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+
+    public bool validarLogin()
+    {
+        UsuarioDao usuarioDao = new UsuarioDao();
+        String email = "";
+        String senha = "";
+
+
+    }
 }
